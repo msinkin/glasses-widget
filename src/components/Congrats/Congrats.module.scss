@@ -1,0 +1,19 @@
+.congrats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.like {
+    margin: 75px 0 14px 0;
+    pointer-events: none;
+}
+
+.title {
+    margin-bottom: 22px;
+    color: #2196F3;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+}

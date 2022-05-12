@@ -1,0 +1,24 @@
+.card {
+    color: #425A60;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgba(231, 235, 237, 0.8);
+    border-radius: 14px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.large {
+    padding: 56px 0 56px 0;
+    margin: 0 50px 14px 50px;
+}
+.medium {
+    padding: 46px 0 46px 0;
+    margin: 0 50px 14px 50px;
+}
+.small {
+    padding: 30px 0 30px 0;
+    margin: 0 40px 14px 40px;
+}
