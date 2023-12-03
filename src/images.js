@@ -1,16 +1,16 @@
-// Men
-import men_eyeglasses from "./assets/men_eyeglasses.svg";
-import men_sunglasses from "./assets/men_sunglasses.svg";
-import men_long from "./assets/men_long_face.svg";
-import men_round from "./assets/men_round_face.svg";
-import men_between from "./assets/men_between_face.svg";
+// Man
+import man_eyeglasses from "./assets/man/man_eyeglasses.svg";
+import man_sunglasses from "./assets/man/man_sunglasses.svg";
+import man_long from "./assets/man/man_long_face.svg";
+import man_round from "./assets/man/man_round_face.svg";
+import man_between from "./assets/man/man_between_face.svg";
 
 // Woman
-import women_eyeglasses from "./assets/women_eyeglasses.svg";
-import women_sunglasses from "./assets/women_sunglasses.svg";
-import women_long from "./assets/women_long_face.svg";
-import women_round from "./assets/women_round_face.svg";
-import women_between from "./assets/women_between_face.svg";
+import woman_eyeglasses from "./assets/woman/woman_eyeglasses.svg";
+import woman_sunglasses from "./assets/woman/woman_sunglasses.svg";
+import woman_long from "./assets/woman/woman_long_face.svg";
+import woman_round from "./assets/woman/woman_round_face.svg";
+import woman_between from "./assets/woman/woman_between_face.svg";
 
 // Glasses
 import aviator from "./assets/glasses/aviator.png";
@@ -40,20 +40,20 @@ import versace from "./assets/brands/versace.svg";
 import armani from "./assets/brands/armani.svg";
 import vogue from "./assets/brands/vogue.svg";
 
-export const men = {
-    eyeglasses: men_eyeglasses,
-    sunglasses: men_sunglasses,
-    long: men_long,
-    round: men_round,
-    between: men_between
+export const man = {
+    eyeglasses: man_eyeglasses,
+    sunglasses: man_sunglasses,
+    long: man_long,
+    round: man_round,
+    between: man_between
 };
 
-export const women = {
-    eyeglasses: women_eyeglasses,
-    sunglasses: women_sunglasses,
-    long: women_long,
-    round: women_round,
-    between: women_between
+export const woman = {
+    eyeglasses: woman_eyeglasses,
+    sunglasses: woman_sunglasses,
+    long: woman_long,
+    round: woman_round,
+    between: woman_between
 };
 
 export const glasses = {

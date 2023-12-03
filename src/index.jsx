@@ -1,9 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { Provider } from "react-redux";
 
 import "./index.scss";
 import App from "./App";
+import { store } from "./store/store";
 
-const elem = document.getElementById("glasses-quiz-widget");
-const root = ReactDOM.createRoot(elem);
-root.render(<App startURL={elem.getAttribute("data-source")}/>);
+const root = ReactDOM.createRoot(document.getElementById("glasses-quiz-widget"));
+root.render(
+    <Provider store={store}>
+        <App />
+    </Provider>
+);
